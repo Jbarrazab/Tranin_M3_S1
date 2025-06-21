@@ -3,25 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="aca pones una descripcion del sitio">
-    <meta name="keywords" content="IMC, Calculadora">
-    <meta name="sitedomain" content="https://github.com/contrerinhaz/SPA_IMC.git">
-    <meta name="organization" content="contrerinhaz">
-    <meta name="author" content="Juan David Contreras Coronado">
-    <meta name="designer" content="Juan David Contreras Coronado">
-    <meta name="copyright" content="© 2025 contrerinhaz. All rights reserved">
+    <meta name="description" content="SPA online de sistemas de validación de datos creado con HTML5, CSS y JavaScript">
+    <meta name="keywords" content="SPA, sistema interactivo, validar edad, html, css, javascript">
+    <meta name="sitedomain" content="https://jbarrazab.github.io/Tranin_M3_S1/">
+    <meta name="organization" content="Jafit_barrazaB">
+    <meta name="author" content="Jafit emilio barraza barbosa">
+    <meta name="designer" content="Jafit emilio barraza barbosa">
+    <meta name="copyright" content="© 2025 Jafit_barrazaB. All rights reserved">
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="15days">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#00bcd4">
     <link rel="stylesheet" href="./src/css/styles.css">
 </head>
 <body>
-    <main>
-        <h1>
-            Este es un titulo
-        </h1>
-        <p>Este es un parrafo</p>
-    </main>
+    <!-- header -->
+    <header>
+        <h1>sistema interactivo </h1>
+        <h3>Prueba ahora</h3>
+    </header>
+
+  <!-- main form -->
+  <main class="formulario">
+        <h1>Verifica tu edad</h1>
+
+        <label for="nombreUsuer">Nombre:</label>
+        <input type="text" id="nombreUsuer" placeholder="Ej:Coder" />
+
+        <label for="edadUser">Edad:</label>
+        <input type="number" id="edadUser" placeholder="Ej:28" min="0" />
+
+        <button id="btnCheckAge">Verificar edad</button>
+
+        <section class="result" id="resultMessage"></section>
+  </main>
+
+  <script src="/src/js/sistema_interactivo.js"></script>
+  
+  <footer>
+
+  </footer>
 </body>
 </html>
